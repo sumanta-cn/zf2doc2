@@ -1,0 +1,32 @@
+{
+    "name": "easycloud/easyacl",
+    "description": "ZF2 module for managing rights and users.",
+    "license": "New-BSD-License",
+    "keywords": [
+        "acl",
+        "doctrine",
+        "zf2",
+        "zend framework 2",
+        "module"
+    ],
+    "homepage": "https://www.github.com/Easy-Cloud/EasyACL",
+    "authors": [
+        {
+            "name": "Alexander Janssen",
+            "homepage": "http://www.tnajanssen.nl"
+        }
+    ],
+    "require": {
+        "zendframework/zendframework": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "EasyACL\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
+
